@@ -1,0 +1,71 @@
+@font-face{
+    font-family: myfont;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@media screen and (max-width:999px) {
+    .container{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+}
+:root {  
+    --Green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --Grey1 : hsl(0, 0%, 20%);
+    --Grey2 : hsl(0, 0%, 12%);
+    --Grey3 : hsl(0, 0%, 8%);
+}
+.contanior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; 
+}
+.card{
+    height: 550px;
+    border-radius: 15px;
+    width: 300px;
+    background-color: var(--Grey2) ;
+    position: absolute;
+    top: 720px;
+    
+}
+body{
+    background-color: var(--Grey3);
+}
+img{
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+button{
+    width: 90%;
+    padding: 8px 18px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--Grey1);
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+button:hover{
+    background-color: var(--Green);
+    color: var(--Grey1);
+}
+h2{
+     margin-left: 65px;
+     font-family: myfont;
+}
+*{
+    color: var(--white);
+}
+p{
+    font-size: 14px;
+    margin-left: 45px;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+h4{
+    color: var(--Green);
+    margin-left: 65px;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
